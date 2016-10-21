@@ -33,7 +33,7 @@ to run a single test.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/eduardoprauze/nupack.
+Bug reports and pull requests are welcome on GitHub at https://github.com/eduardoprauze/toy_robot_simulator.
 
 ## License
 
