@@ -26,9 +26,9 @@ class Commander
     if @validator.valid_move?(@robot.current_position, direction)
       case direction
       when 0, 180
-          @robot.current_position[1] += direction == 0 ? 1 : -1
-        when 90, 270
-          @robot.current_position[0] += direction == 90 ? 1 : -1
+        @robot.current_position[1] += direction == 0 ? 1 : -1
+      when 90, 270
+        @robot.current_position[0] += direction == 90 ? 1 : -1
       end
     else
       puts "Out of bounds."
